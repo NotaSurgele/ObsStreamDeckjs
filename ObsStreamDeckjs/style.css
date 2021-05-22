@@ -1,8 +1,30 @@
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+:root {
+  --size: 130px;
+}
+
+body {
+  background-color: black;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, var(--size));
+  grid-template-rows: repeat(auto-fit, var(--size));
+  gap: 10px;
+}
+
+button {
+  border: none;
+  color: white;
+  background-color: rgb(44, 175, 131);
+  border-bottom: solid 4px rgb(33, 119, 90);
+  border-radius: 4px;
+  font-size: 1.2rem;
+}
+
+button:hover {
+  background-color: rgb(23, 134, 97);
+  border-color: rgb(25, 102, 76);
+}
+
+button.active {
+  background-color: rgb(23, 134, 97);
+  border-color: rgb(25, 102, 76);
 }
