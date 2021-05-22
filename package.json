@@ -1,7 +1,0 @@
-{
-  "dependencies": {
-    "buffer": "^6.0.3",
-    "event": "^1.0.0",
-    "events": "^3.3.0"
-  }
-}
