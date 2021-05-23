@@ -8,7 +8,6 @@ import { MediaButton } from "./MediaButton";
      * @param {[]} data
 */
 
-
 const mediaRow = document.getElementById('medias');
 
 export async function getMediaFromScene(obs, scene, data) {

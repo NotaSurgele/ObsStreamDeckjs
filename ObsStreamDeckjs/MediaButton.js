@@ -30,6 +30,5 @@ export class MediaButton extends Button {
 
     OnClick() {
         this.obs.send("RestartMedia", { "sourceName": this.mediaName});
-        
     }
 }

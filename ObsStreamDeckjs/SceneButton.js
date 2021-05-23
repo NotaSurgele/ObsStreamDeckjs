@@ -6,6 +6,7 @@ export class SceneButton extends Button {
      * @param {import('obs-websocket-js')} obs 
      * @param {string} sceneName 
      */
+
     constructor (obs, sceneName) {
         super();
         this.obs = obs;
