@@ -5,18 +5,18 @@ import { getMediaFromScene } from './getMediaScene';
 
 //yarn run dev
 
-/*var ip = prompt("Enter your hosted machine ip adress: ", "");
+var ip = prompt("Enter your hosted machine ip adress: ", "");
 
 while (ip == "") {
   ip = prompt("Enter your hosted machine ip adress: ", "");
-}*/
+}
 
 const sceneRow = document.getElementById('scenes');
 var isSync = true;
 
 async function main() {
   const obs = new OBSWebSocket();
-  await obs.connect( {address: `192.168.1.6:4444`, password: 'StreamDeckjs'} );
+  await obs.connect( {address: `${ip}:4444`, password: 'StreamDeckjs'} );
   const data = await obs.send("GetSceneList");
 
   for(const scene of data.scenes) {
@@ -34,4 +34,5 @@ async function main() {
     }
   }
 }
+
 main();

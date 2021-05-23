@@ -9,7 +9,7 @@ import { MediaButton } from "./MediaButton";
 */
 
 
- const mediaRow = document.getElementById('medias');
+const mediaRow = document.getElementById('medias');
 
 export async function getMediaFromScene(obs, scene, data) {
     const medias = data.scenes.find((s) => s.name == scene.name).sources;
