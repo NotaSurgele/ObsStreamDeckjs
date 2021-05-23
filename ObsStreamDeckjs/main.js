@@ -2,9 +2,6 @@ import './style.css'
 import OBSWebSocket from 'obs-websocket-js'
 import { SceneButton } from './SceneButton';
 import { getMediaFromScene } from './getMediaScene';
-import { getIpAddress, SaveIpAddress } from './checkIP'
-
-//yarn run dev
 
 var ip = sessionStorage.getItem('ip');
 
