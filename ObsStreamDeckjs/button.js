@@ -13,10 +13,6 @@ export class Button {
         throw new Error('You should Implement OnClick');
     }
 
-    OnMounted() {
-        
-    }
-
     Active(enabled) {
         if (enabled)
         {

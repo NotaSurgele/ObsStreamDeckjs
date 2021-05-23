@@ -13,6 +13,7 @@
     "Buffer": "^0.0.0",
     "buffer": "^6.0.3",
     "events": "^3.3.0",
-    "obs-websocket-js": "^4.0.2"
+    "obs-websocket-js": "^4.0.2",
+    "require": "^2.4.20"
   }
 }

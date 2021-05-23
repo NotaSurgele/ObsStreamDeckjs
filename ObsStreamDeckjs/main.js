@@ -2,17 +2,25 @@ import './style.css'
 import OBSWebSocket from 'obs-websocket-js'
 import { SceneButton } from './SceneButton';
 import { getMediaFromScene } from './getMediaScene';
+import { getIpAddress, SaveIpAddress } from './checkIP'
 
 //yarn run dev
 
-var ip = prompt("Enter your hosted machine ip adress: ", "");
+var ip = sessionStorage.getItem('ip');
 
-while (ip == "") {
-  ip = prompt("Enter your hosted machine ip adress: ", "");
+console.log(ip);
+
+if (ip == "" || ip == null)
+{
+  while (ip == "" || ip == null)
+  {
+    ip = prompt("Enter your hosted machine Ip address:", "");
+  }
 }
 
+sessionStorage.setItem("ip", ip);
+
 const sceneRow = document.getElementById('scenes');
-var isSync = true;
 
 async function main() {
   const obs = new OBSWebSocket();
@@ -26,11 +34,6 @@ async function main() {
     {
         button.Active(true)
         getMediaFromScene(obs, scene, data);
-        if (isSync == false)
-        {
-          window.location.reload();
-          isSync = true;
-        }
     }
   }
 }
