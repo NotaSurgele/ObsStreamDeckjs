@@ -20,11 +20,6 @@ buffer@^6.0.3:
     base64-js "^1.3.1"
     ieee754 "^1.2.1"
 
-buffers@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/buffers/-/buffers-0.1.1.tgz#b24579c3bed4d6d396aeee6d9a8ae7f5482ab7bb"
-  integrity sha1-skV5w77U1tOWru5tmorn9Ugqt7s=
-
 colorette@^1.2.2:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/colorette/-/colorette-1.2.2.tgz#cbcc79d5e99caea2dbf10eb3a26fd8b3e6acfa94"
@@ -41,14 +36,6 @@ esbuild@^0.11.23:
   version "0.11.23"
   resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.11.23.tgz#c42534f632e165120671d64db67883634333b4b8"
   integrity sha512-iaiZZ9vUF5wJV8ob1tl+5aJTrwDczlvGP0JoMmnpC2B0ppiMCu8n8gmy5ZTGl5bcG081XBVn+U+jP+mPFm5T5Q==
-
-event@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/event/-/event-1.0.0.tgz#b51232b67ad4e0fe38c4a8cbaff2ff8685278ce3"
-  integrity sha1-tRIytnrU4P44xKjLr/L/hoUnjOM=
-  dependencies:
-    method "~1.0.0"
-    reducible "~1.0.1"
 
 events@^3.3.0:
   version "3.3.0"
@@ -94,16 +81,6 @@ isomorphic-ws@^4.0.1:
   resolved "https://registry.yarnpkg.com/isomorphic-ws/-/isomorphic-ws-4.0.1.tgz#55fd4cd6c5e6491e76dc125938dd863f5cd4f2dc"
   integrity sha512-BhBvN2MBpWTaSHdWRb/bwdZJ1WaehQ2L1KngkCkfLUGF0mAWAT1sQUQacEmQ0jXkFw/czDXPNQSL5u2/Krsz1w==
 
-method@~1.0.0:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/method/-/method-1.0.2.tgz#291f8c29ee443847a2f8906f89fbaa372d4d0916"
-  integrity sha1-KR+MKe5EOEei+JBvifuqNy1NCRY=
-
-method@~2.0.x:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/method/-/method-2.0.0.tgz#e449848defa6daef10b8163d9d9aa2d071b7500f"
-  integrity sha1-5EmEje+m2u8QuBY9nZqi0HG3UA8=
-
 ms@2.1.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
@@ -137,13 +114,6 @@ postcss@^8.2.10:
     colorette "^1.2.2"
     nanoid "^3.1.23"
     source-map "^0.6.1"
-
-reducible@~1.0.1:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/reducible/-/reducible-1.0.6.tgz#331722d14189f8f392dc9b88341aec603b25c35e"
-  integrity sha1-Mxci0UGJ+POS3JuINBrsYDslw14=
-  dependencies:
-    method "~2.0.x"
 
 resolve@^1.19.0:
   version "1.20.0"
