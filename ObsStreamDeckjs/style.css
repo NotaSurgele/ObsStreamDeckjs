@@ -4,6 +4,13 @@
 
 body {
   background-color: black;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+.row {
   display: grid;
   grid-template-columns: repeat(auto-fit, var(--size));
   grid-template-rows: repeat(auto-fit, var(--size));

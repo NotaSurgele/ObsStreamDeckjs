@@ -5,17 +5,26 @@ export class Button {
         this.button = document.createElement('button')
         this.button.innerText = this.label
         this.button.addEventListener('click', this.OnClick.bind(this))
-        obj.appendChild(this.button); 
+        obj.appendChild(this.button);
+        this.OnMounted();
     }
 
     OnClick() {
         throw new Error('You should Implement OnClick');
     }
 
+    OnMounted() {
+        
+    }
+
     Active(enabled) {
         if (enabled)
+        {
             this.button.classList.add("active");
-        else 
+        }
+        else
+        {
             this.button.classList.remove("active")
+        } 
     }
 }

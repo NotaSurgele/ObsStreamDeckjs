@@ -13,8 +13,7 @@ export class SceneButton extends Button {
         this.label = sceneName;
     }
 
-    Add(obj) {
-        super.Add(obj);
+    OnMounted(obj) {
         this.obs.on("SwitchScenes", (data) => {
             this.Active(data['scene-name'] === this.sceneName);
         });
@@ -22,5 +21,6 @@ export class SceneButton extends Button {
 
     OnClick() {
         this.obs.send("SetCurrentScene", { "scene-name": this.sceneName });
+        window.location.reload();
     }
 }
