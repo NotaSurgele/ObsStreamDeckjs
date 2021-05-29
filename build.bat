@@ -1,2 +1,1 @@
-cd ObsStreamDeckjs
-
+yarn & cd .\ObsStreamDeckjs\ & echo "Build Yarn" & yarn & yarn run dev --host

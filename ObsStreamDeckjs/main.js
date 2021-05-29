@@ -7,9 +7,9 @@ var ip = sessionStorage.getItem('ip');
 
 console.log(ip);
 
-if (ip.length == 0)
+if (ip == "" || ip == null)
 {
-  while (ip.length == 0)
+  while (ip == "" || ip == null)
   {
     ip = prompt("Enter your hosted machine Ip address:", "");
   }
