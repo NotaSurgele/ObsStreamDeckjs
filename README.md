@@ -16,7 +16,7 @@
 
 ## obs-websocket server configuration:
 &nbsp; First go to obs. Then go to tool/WebSocket server settings <br><br> ![tool](.picture/obs_tool_1.png) <br><br>
-&nbsp; __Then put this options. In the password section input: `StreamDeckjs`__: <br> <img src="./.picture/obs_tool_2.png" style="margin-left"><br><br>
+&nbsp; __Then put this options. <br> &nbsp; In the password section input: `StreamDeckjs`__<br><br>: <img src="./.picture/obs_tool_2.png" style="margin-left"><br><br>
 
 ## Build:
 ______
