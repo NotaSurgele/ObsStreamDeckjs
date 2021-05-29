@@ -1,5 +1,5 @@
 :root {
-  --size: 130px;
+  --size: 90px;
 }
 
 body {
@@ -8,7 +8,7 @@ body {
   animation: gradient 15s ease infinite;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 30x;
 }
 
 @keyframes gradient {
@@ -26,7 +26,8 @@ body {
 .row {
   display: grid;
   grid-template-columns: repeat(auto-fit, var(--size));
-  grid-template-rows: repeat(auto-fit, var(--size));
+  grid-template-rows: repeat(3, var(--size));
+  grid-gap: 20px;
   gap: 10px;
 }
 

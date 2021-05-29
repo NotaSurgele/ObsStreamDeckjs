@@ -5,7 +5,6 @@ import { MediaButton } from "./MediaButton";
      * @param {import('obs-websocket-js')} obs 
      * @param {string} sceneName 
      * @param {import('obs-websocket-js').Scene} scene
-     * @param {[]} data
 */
 
 const mediaRow = document.getElementById('medias');
