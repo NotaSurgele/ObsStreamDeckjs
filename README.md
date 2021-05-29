@@ -15,13 +15,13 @@
 # How to build ?
 
 ## obs-websocket server configuration:
-&nbsp; First go to obs. Then go to tool/WebSocket server settings <br><br> ![tool](.picture/obs_tool_1.png) <br>
-&nbsp; __Then put this options. In the password section input: `StreamDeckjs`__: <img src="./.picture/obs_tool_2.png" style="margin-left"><br><br>
+&nbsp; First go to obs. Then go to tool/WebSocket server settings <br><br> ![tool](.picture/obs_tool_1.png) <br><br>
+&nbsp; __Then put this options. In the password section input: `StreamDeckjs`__: <br> <img src="./.picture/obs_tool_2.png" style="margin-left"><br><br>
 
 ## Build:
 ______
 &nbsp; First start your Obs.
 &nbsp; Then simply run the build.bat by double cliking on it. The server should then start. <br>
 &nbsp; Copy past: ` > Network: http://Your-ip-address:3000/`, and enter it in your browser.<br>
-&nbsp; Then enter the address ip that you just coppied (for example) `192.168.54.544` in the alert box and here we go !! :).
+&nbsp; Then enter the address ip that you just coppied (for example) `192.168.54.544` in the alert box and here we go !! :).<br>
 &nbsp; You should now see your scenes.
