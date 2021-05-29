@@ -6,8 +6,9 @@
 
 # What do you need ? (Dependencies)
 
-&nbsp; First you will need obs.
-[Obs](https://obsproject.com/fr) <--- <br>
-&nbsp; Then you will need [obs-websocket](https://github.com/Palakis/obs-websocket/releases/tag/4.9.0) (_go deep down in the page_) <--- <br>
-&nbsp; Nodejs / NPM --> [Nodejs / NPM](https://nodejs.org/en/) <br>
-&nbsp; Yarn --> [YarnPackageManager](https://classic.yarnpkg.com/en/docs/install/#windows-stable) (__Click alternatives for windows setup__)<br>
+&nbsp; __First you will need obs.__
+[Obs](https://obsproject.com/fr) __<--__ <br><br> ![obs](.picture/obs_1.png) <br><br>
+&nbsp; __Then you will need__ [obs-websocket](https://github.com/Palakis/obs-websocket/releases/tag/4.9.0) __<--__ (__go at the bottom of the page for the installer__) <br><br> ![obs-websocket](.picture/websocket_1.png)<br><br>
+&nbsp; __Nodejs / NPM__ __-->__ [Nodejs / NPM](https://nodejs.org/en/) <br><br>![node](.picture/nodejs_1.png)<br><br>
+&nbsp; __Yarn__ __-->__ [YarnPackageManager](https://classic.yarnpkg.com/en/docs/install/#windows-stable) (__Click "Alternatives" for windows installer__)<br><br>![yarn1](.picture/yarn_1.png)<br>![yarn2](.picture/yarn_1.png)<br><br>
+
